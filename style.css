@@ -148,6 +148,64 @@ header ul li a
     max-width: 350px;
     filter: drop-shadow(3px 3px 4px rgb(34, 34, 34));
 }
+.contact
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.contact .textBox
+{
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+    margin-right: 20px;
+}
+.contact .textBox h2
+{
+    font-size: 4em;
+    color: var(--black);
+    line-height: 1.4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact .textBox h2 span
+{
+    /* font-size: 1.2em; */
+    color: var(--green);
+
+}
+.dark .contact .textBox h2 span
+{
+    color: #5d9778;
+}
+.contact .textBox p{
+    color: var(--black);
+}
+.contact .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: var(--green);
+    color: var(--white2);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.contact .imgBox
+{
+    position: relative;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sci
 {
     position: absolute;
@@ -246,6 +304,20 @@ header ul li a
         /* clip-path: circle(125px at center);
     } */
     .content .textBox h2 
+    {
+        font-size: 1.75em;
+    }
+    .contact
+    {
+        flex-direction: column-reverse;
+
+    }
+    .contact .textBox
+    {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    .contact .textBox h2 
     {
         font-size: 1.75em;
     }
