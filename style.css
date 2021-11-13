@@ -255,26 +255,35 @@ header ul li a
     font-weight: 600;
     margin-bottom: 10px;
 }
-
+.projects .textBox p span
+{
+    font-weight: 650;
+}
+.projects .textBox a
+{
+    color: #1284b9;
+    font-weight: 600;
+}
 .projects .imgBox
 {
     position: relative;
-    top: 60px;
+    top: 80px;
+    /* right: 50px; */
     /* width: 400px; */
-    height: 600px;
+    /* height: 600px; */
     justify-content: center;
     align-items: center;
     
 }
 #img1
 {
-    margin-bottom: 30px;
+    margin-bottom: 230px;
     margin-left: 100px;
     vertical-align: middle;
 }
 #img2
 {
-    margin-bottom: 30px;
+    margin-bottom: 210px;
     margin-left: 100px;
     vertical-align: middle;
 }
