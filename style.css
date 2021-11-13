@@ -206,6 +206,83 @@ header ul li a
     align-items: center;
 }
 
+.projects
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    z-index: 2;
+}
+.projects .textBox
+{
+    position: relative;
+    max-width: 700px; /* change text overflow */
+    z-index: 2;
+    margin-right: 20px;
+}
+.projects .textBox h2
+{
+    font-size: 4em;
+    color: var(--black);
+    line-height: 1.4em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.projects .textBox h2 span
+{
+    /* font-size: 1.2em; */
+    color: var(--green);
+
+}
+.dark .projects .textBox h2 span
+{
+    color: #5d9778;
+}
+
+.projects .textBox p{
+    color: var(--black);
+    margin-bottom: 40px;
+    font-size: 0.9em;
+}
+
+.projects .textBox h3
+{
+    font-size: 1.5em;
+    color: var(--black);
+    line-height: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.projects .imgBox
+{
+    position: relative;
+    top: 60px;
+    /* width: 400px; */
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#img1
+{
+    margin-bottom: 30px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+#img2
+{
+    margin-bottom: 30px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+#img3
+{
+    margin-left: 90px;
+    height: 230px;
+}
 .sci
 {
     position: absolute;
