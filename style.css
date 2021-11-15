@@ -48,12 +48,7 @@ header
     align-items: center;
     z-index: 10000;
 }
-/* header .logo
-{
-    position: relative;
-    max-width: 70px;
 
-} */
 header ul
 {
     position: relative;
@@ -83,6 +78,7 @@ header ul li a
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+   
 }
 .content .textBox
 {
@@ -90,6 +86,9 @@ header ul li a
     max-width: 600px;
     z-index: 2;
     margin-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    
 }
 .content .textBox h2
 {
@@ -101,7 +100,6 @@ header ul li a
 }
 .content .textBox h2 span
 {
-    /* font-size: 1.2em; */
     color: var(--green);
 
 }
@@ -132,15 +130,7 @@ header ul li a
     justify-content: center;
     align-items: center;
 }
-/* .content .imgBox::before
-{
-    content: '';
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    background: var(--green);
-    border-radius: 50%;
-} */
+
 .content .imgBox img 
 {
     position: relative;
@@ -174,9 +164,7 @@ header ul li a
 }
 .contact .textBox h2 span
 {
-    /* font-size: 1.2em; */
     color: var(--green);
-
 }
 .dark .contact .textBox h2 span
 {
@@ -185,18 +173,6 @@ header ul li a
 .contact .textBox p{
     color: var(--black);
 }
-/* .contact .textBox a
-{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background: var(--green);
-    color: var(--white2);
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-} */
 .contact .textBox a
 {   
     text-decoration: none;
@@ -217,14 +193,13 @@ header ul li a
     position: relative;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     z-index: 2;
 }
 .research .textBox
 {
     position: relative;
-    max-width: 950px; /* change text overflow */
+    max-width: 950px; 
     z-index: 2;
     margin-right: 20px;
     text-align: justify;
@@ -240,9 +215,7 @@ header ul li a
 }
 .research .textBox h2 span
 {
-    /* font-size: 1.2em; */
     color: var(--green);
-
 }
 .dark .research .textBox h2 span
 {
@@ -276,9 +249,6 @@ header ul li a
 {
     position: relative;
     top: 50px;
-    /* right: 50px; */
-    /* width: 400px; */
-    /* height: 600px; */
     justify-content: center;
     align-items: center;
     
@@ -360,7 +330,6 @@ header ul li a
 
 }
 
-/*making it responsive*/
 
 @media (max-width: 991px)
 {
@@ -391,12 +360,7 @@ header ul li a
     {
         max-width: 250px;
     }
-    /* .content .imgBox::before
-    {
-        /* width: 125px;
-        height: 125px; */
-        /* clip-path: circle(125px at center);
-    } */
+ 
     .content .textBox h2 
     {
         font-size: 1.75em;
