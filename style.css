@@ -125,7 +125,7 @@ header ul li a
 .content .imgBox
 {
     position: relative;
-    width: 500px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@ header ul li a
     position: relative;
     z-index: 1;
     max-width: 350px;
-    filter: drop-shadow(3px 3px 4px rgb(34, 34, 34));
+    /* filter: drop-shadow(3px 3px 4px rgb(34, 34, 34)); */
 }
 .contact
 {
